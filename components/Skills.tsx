@@ -5,17 +5,21 @@ import { Progress } from '@/components/ui/progress'
 
 const skills = [
   { name: 'Software Testing', level: 95 },
-  { name: 'JIRA/Confluence', level: 90 },
-  { name: 'API Testing', level: 85 },
-  { name: 'Documentation and Reporting', level: 92 },
-  { name: 'MySQL', level: 80 },
+  
+  { name: 'JIRA/Confluence', level: 92 },
+  { name: 'API Testing', level: 88 },
+  { name: 'Performance Testing', level: 85 },
+  { name: 'SQL/Database Testing', level: 80 },
+  { name: 'Test Planning & Strategy', level: 90 },
+  { name: 'Agile Methodologies', level: 85 },
+  { name: 'Test Automation', level: 25 },
 ]
 
 export default function Skills() {
   return (
     <section id="skills" className="py-20 px-4 md:px-8 bg-secondary">
       <h2 className="text-4xl font-bold text-center mb-12">My Skills</h2>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {skills.map((skill, index) => (
           <motion.div
             key={skill.name}
@@ -28,7 +32,7 @@ export default function Skills() {
               <span className="font-semibold">{skill.name}</span>
               <span>{skill.level}%</span>
             </div>
-            <Progress value={skill.level} className="h-2" />
+            <Progress value={skill.level} max={100} className="h-2" />
           </motion.div>
         ))}
       </div>

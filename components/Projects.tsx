@@ -8,24 +8,24 @@ import { GithubIcon, ExternalLinkIcon } from 'lucide-react'
 
 const projects = [
   {
-    title: 'Project 1',
+    title: 'Rojgari Services Websites',
     description: 'A revolutionary web application',
     image: 'https://source.unsplash.com/random/800x600?tech',
-    github: 'https://github.com',
+    github: 'https://github.com/alleena',
     live: 'https://example.com',
   },
   {
-    title: 'Project 2',
+    title: 'Rojgari Mobile Application',
     description: 'An innovative mobile app',
     image: 'https://source.unsplash.com/random/800x600?app',
-    github: 'https://github.com',
+    github: 'https://github.com/alleena',
     live: 'https://example.com',
   },
   {
-    title: 'Project 3',
+    title: 'Merojob Websites',
     description: 'A cutting-edge AI solution',
     image: 'https://source.unsplash.com/random/800x600?ai',
-    github: 'https://github.com',
+    github: 'https://github.com/alleena',
     live: 'https://example.com',
   },
 ]
@@ -62,7 +62,7 @@ export default function Projects() {
                       transition={{ duration: 0.3 }}
                     >
                       <Button variant="secondary" className="mr-2" onClick={() => window.open(project.github, '_blank')}>
-                        <GithubIcon className="mr-2" /> GitHub
+                        GitHub
                       </Button>
                       <Button variant="secondary" onClick={() => window.open(project.live, '_blank')}>
                         <ExternalLinkIcon className="mr-2" /> Live Demo

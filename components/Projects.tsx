@@ -12,21 +12,21 @@ const projects = [
     description: 'A revolutionary web application',
     image: './images.jpg',
     github: 'https://github.com/alleena',
-    live: 'https://example.com',
+    live: 'https://rojgari.com/',
   },
   {
     title: 'Rojgari Mobile Application',
     description: 'An innovative mobile app',
     image: './rojgariapp.jpg',
     github: 'https://github.com/alleena',
-    live: 'https://example.com',
+    live: 'https://play.google.com/store/apps/details?id=com.rojgaripasal.rojgariapp&hl=en',
   },
   {
     title: 'Merojob Websites',
     description: 'A cutting-edge AI solution',
     image: './merojobb.png',
     github: 'https://github.com/alleena',
-    live: 'https://example.com',
+    live: 'https://merojob.com',
   },
 ]
 

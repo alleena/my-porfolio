@@ -12,10 +12,10 @@ export default function Footer() {
             <a href="https://github.com/alleena" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={20} />
             </a>
-            <a href="linkedin.com/in/alina-maharjan-383051290" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://linkedin.com/in/alina-maharjan-383051290" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="alleenamaharjan@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="mailto:alleenamaharjan@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
               <Mail size={20} />
             </a>
           </div>
